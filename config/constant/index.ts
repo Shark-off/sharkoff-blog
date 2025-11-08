@@ -8,10 +8,11 @@ export const ADMIN_EMAILS = process.env.NEXT_PUBLIC_ADMIN_EMAILS?.split(',')
 
 // * 元数据，SEO，网页关键字。。。
 export const metadata: Metadata = {
-  title: `叶鱼 | 业余`,
-  description: '记录前端开发、技术文章与生活思考的博客站点',
+  title: `鲨掉 | 鲨掉`,
+  description: '记录前后端开发、技术文章与生活思考的博客站点',
   keywords: [
     '前端开发',
+    '后端开发',
     '技术博客',
     'React',
     'Next.js',
@@ -19,19 +20,19 @@ export const metadata: Metadata = {
     'javascript',
     'typescript',
     '阅读',
-    '叶鱼',
+    '鲨掉',
   ],
-  authors: [{ name: '叶鱼', url: 'https://useyeyu.cc' }],
-  creator: '叶鱼',
+  authors: [{ name: '鲨掉', url: 'https://sharkoff-blog.top' }],
+  creator: '鲨掉',
 }
 
 // * 首页动画加载的文字，建议不要超过 5 个字，不然长度太长，当然，你也可以去修改样式~
-export const INITIAL_WELCOME_TEXT = '业余'
+export const INITIAL_WELCOME_TEXT = '鲨掉'
 
 // * 配置评论系统的官方文档 https://giscus.app/zh-CN
-export const COMMENT_CARD_REPO = 'NeilYeTAT/yeyu-blog-comment'
+export const COMMENT_CARD_REPO = 'Shark-off/sharkoff-blog'
 
-export const COMMENT_CARD_REPO_ID = 'R_kgDOOiAAJA'
+export const COMMENT_CARD_REPO_ID = 'R_kgDOQPF9Jw'
 
 // ! --------------- 以下配置不建议修改 ---------------
 

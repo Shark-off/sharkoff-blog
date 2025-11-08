@@ -14,8 +14,8 @@ export default function CommentCard({ term }: { term: string }) {
   return (
     <Giscus
       id="comments"
-      repo={COMMENT_CARD_REPO}
-      repoId={COMMENT_CARD_REPO_ID}
+      repo="Shark-off/sharkoff-blog"
+      repoId="R_kgDOQPF9Jw"
       category="Announcements"
       categoryId="DIC_kwDOOiAAJM4Cpm1t"
       mapping="specific"

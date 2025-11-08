@@ -3,19 +3,19 @@ import Link from 'next/link'
 const ExternalLinks = [
   {
     name: 'GitHub',
-    url: 'https://github.com/NeilYeTAT',
+    url: 'https://github.com/Shark-off?tab=repositories',
   },
   {
     name: 'bilibili',
-    url: 'https://space.bilibili.com/1859558916',
+    url: 'https://space.bilibili.com/418882480?spm_id_from=333.1007.0.0',
   },
-  {
-    name: '掘金',
-    url: 'https://juejin.cn/user/64204896208252',
-  },
+  // {
+  //   name: '掘金',
+  //   url: 'https://juejin.cn/user/64204896208252',
+  // },
   {
     name: 'Gmail',
-    url: 'mailto:nearjilt@gmail.com',
+    url: 'S1193568198@outlook.com',
   },
 ] as const
 

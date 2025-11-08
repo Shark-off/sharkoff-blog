@@ -2,7 +2,7 @@ import { getAllPublishedEcho } from '@/actions/echos'
 import * as motion from 'motion/react-client'
 import BioSection from './internal/bio-section'
 import EchoCard from './internal/echo-card'
-import TechStack from './internal/tech-stack'
+// import TechStack from './internal/tech-stack'
 import YeAvatar from './internal/ye-avatar'
 
 export default async function MainLayoutContainer() {
@@ -21,7 +21,7 @@ export default async function MainLayoutContainer() {
       <YeAvatar />
       <BioSection />
       <EchoCard allPublishedEcho={allPublishedEcho} />
-      <TechStack />
+      {/* <TechStack /> */}
     </motion.main>
   )
 }
