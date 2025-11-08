@@ -1,7 +1,7 @@
 'use client'
 
 import type { Theme } from '@giscus/react'
-import { COMMENT_CARD_REPO, COMMENT_CARD_REPO_ID } from '@/config/constant'
+// import { COMMENT_CARD_REPO, COMMENT_CARD_REPO_ID } from '@/config/constant'
 import { useTransitionTheme } from '@/hooks/use-transition-theme'
 import Giscus from '@giscus/react'
 
