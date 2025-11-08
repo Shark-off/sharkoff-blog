@@ -13,8 +13,12 @@ import {
 import { GithubIcon, RotateCcw } from 'lucide-react'
 import { signIn } from 'next-auth/react'
 import Link from 'next/link'
+import { useSearchParams } from 'next/navigation'
 
 export default function LoginPage() {
+  const search = useSearchParams()
+  const callbackUrl = search.get('callbackUrl') || '/admin'
+
   return (
     <div className="flex flex-col m-auto">
       <Card className="relative w-[320px] rounded-3xl py-4 sm:w-full sm:min-w-[360px] sm:max-w-none">
@@ -28,7 +32,7 @@ export default function LoginPage() {
           <main className="flex flex-col w-full gap-4">
             <Button
               type="button"
-              onClick={() => signIn('github', { redirectTo: '/admin' })}
+              onClick={() => signIn('github', { callbackUrl })}
               className="cursor-pointer"
             >
               <GithubIcon />

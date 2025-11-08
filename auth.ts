@@ -13,5 +13,8 @@ export const { handlers, signIn, signOut, auth } = NextAuth({
         return !!auth
       return true
     },
+    redirect({ url, baseUrl }) {
+      return url.startsWith('/') ? `${baseUrl}${url}` : baseUrl
+    },
   },
 })
