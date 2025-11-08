@@ -26,6 +26,7 @@ export default function CommentCard({ term }: { term: string }) {
       theme={commentTheme}
       lang="zh-CN"
       loading="lazy"
+      // 12312312312
     />
   )
 }
